@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>exo-anime-store</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
@@ -34,43 +38,49 @@
                 <div class="logo-twitter">logo-twitter</div>
             </div>
         </div>
-        <div class="banniere-principale">
-            <div class="logo">
-                <img src="img/anime-store-logo.png" alt="logo anime store">
-            </div>
-            <div class="barre-recherche">
-                <div class="barre-recherche-text">Que recherchez-vous ?</div>
-                <div class="loupe-recherche">loupe-recherche</div>
-            </div>
-            <div class="mon-compte">
-                <div class="logo-bonhomme">logo-bonhomme</div>
-                <div class="mon-compte-text">Mon Compte</div>
-            </div>
+        <div class="centrage-banniere-principale">
+            <div class="banniere-principale">
+                <div class="logo">
+                    <img src="img/anime-store-logo.png" alt="logo anime store">
+                </div>
+                <div class="barre-recherche">
+                    <div class="barre-recherche-text">Que recherchez-vous ?</div>
+                    <div class="loupe-recherche"><i class="bi bi-search"></i></div>
+                </div>
+                <div class="mon-compte">
+                    <div class="logo-bonhomme">logo-bonhomme</div>
+                    <div class="mon-compte-text"><b>Mon Compte</b></div>
+                </div>
 
-            <div class="panier">
-                <div class="logo-panier">logo-panier</div>
-                <div class="chiffre-panier">(0)</div>
+                <div class="panier">
+                    <div class="logo-panier">logo-panier</div>
+                    <div class="chiffre-panier"><b>(0)</b></div>
+                </div>
             </div>
         </div>
 
-
         <nav>
-            <div class="home">
-                <div class="image-home"></div>
+
+            <div class="barre-navigation-couleur">
+                <div class="barre-navigation">
+                    <div class="home">
+                        <div class="image-home menus"><i class="bi bi-house"></i></div>
+                    </div>
+                    <div class="catalogue menus"><b>Catalogue</b></div>
+                    <div class="mangas menus"><b>Mangas</b></div>
+                    <div class="bons-plans menus"><b>Bons Plans</b></div>
+                    <div class="planning menus"><b>Planning</b></div>
+                    <div class="blog menus"><b>Blog</b></div>
+                    <div class="cadeaux menus"><b>Cadeaux</b></div>
+                    <div class="occasion menus"><b>Occasion</b></div>
+                    <div class="abonnements menus"><b>Abonnements</b></div>
+                </div>
             </div>
-            <div class="catalogue">Catalogue</div>
-            <div class="mangas">Mangas</div>
-            <div class="bons-plans">Bons Plans</div>
-            <div class="planning">Planning</div>
-            <div class="blog">Blog</div>
-            <div class="cadeaux">Cadeaux</div>
-            <div class="occasion">Occasion</div>
-            <div class="abonnements">Abonnements</div>
         </nav>
 
 
         <div class="banniere-bleue">
-            <div class="livraison-offerte">LIVRAISON OFFERTE dès 35€ d'achats *</div>
+            <div class="livraison-offerte"><b>LIVRAISON OFFERTE</b> dès 35€ d'achats *</div>
             <div class="paiement-en-3x">/ Paiement en 3 x sans frais dès 70€ d'achat /</div>
             <div class="offre-fidelite"><b>Offre de fidélité</b>: cumulez des points pour obtenir des cadeaux</div>
         </div>
@@ -79,16 +89,19 @@
     <main>
 
         <div class="caroussel">
-            <img src="" alt="">
+            <img src="img/caroussel.webp" alt="une image du caroussel">
             <div class="bouton-bleu-g"></div>
             <div class="bouton-bleu-d"></div>
             <div class="barre-caroussel"></div>
         </div>
 
 
-
+        <!-- A voir si c'est bien un HR à mettre à côté du menu -->
         <div class="hr-g"></div>
-        <div class="nos-nouveautes">Nos Nouveautés</div>
+
+        <div class="nos-nouveautes">
+            <h2>Nos Nouveautés</h2>
+        </div>
         <div class="hr-d"></div>
 
         <div class="bloc-ventes">
@@ -102,9 +115,10 @@
             <div class="fleche-bleue-d"></div>
         </div>
 
-
-        <div class="nouveautes-dvd"></div>
-        <div class="nouveautes-mangas"></div>
+        <div class="nouveautes">
+            <div class="nouveautes-dvd"><b>Nos nouveautés DVD & Blu-Ray</b></div>
+            <div class="nouveautes-mangas"><b>Nos nouveautés Mangas</b></div>
+        </div>
 
         <div class="kingdom"></div>
         <div class="collection-saphir"></div>

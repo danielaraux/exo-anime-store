@@ -1,6 +1,12 @@
-* {
+body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 .barre-contact {
@@ -17,7 +23,7 @@
     color: #29a00a;
 }
 
-i {
+.ekomi>i {
     color: #fed718;
 }
 
@@ -29,7 +35,112 @@ i {
 
 }
 
-.logo {
-    width: 10%;
-    height: 10%;
+.logo>img {
+    width: 230px;
+    height: 100px;
+}
+
+.centrage-banniere-principale {
+    display: flex;
+    justify-content: center;
+}
+
+.banniere-principale {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+.barre-recherche {
+    border: 3px solid green;
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #22a7e9;
+    border-radius: 1rem 0 1rem 0;
+}
+
+.barre-recherche-text {
+    color: red;
+    width: 70%;
+    border: 2px solid black;
+}
+
+.mon-compte {
+    border: 2px solid green;
+    color: #22a7e9;
+}
+
+.barre-navigation-couleur {
+    background-color: #192c3b;
+    display: flex;
+    justify-content: center;
+}
+
+.barre-navigation {
+    width: 60%;
+    color: red;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menus {
+    border: 2px solid green;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+
+.banniere-bleue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #22a6e6;
+    padding: 0.5rem;
+}
+
+
+
+/* A REPRENDRE ICI */
+
+main {
+    background-color: #e3f5ff;
+    width: 90%;
+
+}
+
+.caroussel {
+    border: 3px solid red;
+    text-align: center;
+}
+
+/* Voir pour faire les deux boutons sur les côtés du caroussel */
+
+/* Voir pour faire le bouton central bas du caroussel pour changer d'image */
+
+
+
+.nos-nouveautes {
+    text-align: center;
+    color: #fe0000;
+}
+
+.nouveautes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #22a7e9;
+    border: 2px solid red;
+}
+
+.nouveautes-dvd,
+.nouveautes-mangas {
+    border: 2px solid black;
+    text-align: center;
+    width: 14%;
 }
