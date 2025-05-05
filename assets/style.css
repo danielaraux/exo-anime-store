@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barre-contact {
+    background-color: #e8eced;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.ekomi {
+    border: 1px solid black;
+    width: 40%;
+    text-align: center;
+    color: #29a00a;
+}
+
+i {
+    color: #fed718;
+}
+
+.categories-contact {
+    display: flex;
+    width: 60%;
+    border: 2px solid red;
+    justify-content: center;
+
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+}
