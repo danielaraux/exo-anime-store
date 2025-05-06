@@ -144,7 +144,7 @@ main {
 
 .bloc-ventes {
     display: flex;
-    border: 5px solid green;
+    border: 1px solid green;
 }
 
 
@@ -165,21 +165,46 @@ main {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* A CONTINUER ICI */
 
-.shangri-bluray {
-    border: 3px solid red;
+.ventes {
+    border: 1px solid black;
     width: 13vw;
-    height: 40vh;
+    height: auto;
 
 }
 
+
 .centrage-img {
-    border: 5px solid black;
     display: flex;
     width: 100%;
     height: 20vh;
+    justify-content: center;
+}
 
+.titre-ventes {
+    margin: 20px 2px 20px 2px;
+    text-align: left;
 }
 
 .img-ventes {
@@ -188,52 +213,79 @@ main {
 }
 
 
-
-
 .align-prix {
     display: flex;
     align-items: center;
-    margin-top: 1rem;
+    margin: 0.5rem;
     gap: 5px;
 }
 
-.ancien-prix-shangri-br {
+.ancien-prix {
     color: #1a55fe;
     text-decoration: line-through;
 }
 
-.prix-shangri-br {
+.prix {
     color: #e80d0d;
     font-weight: bold;
     font-size: 1.5em;
 }
 
-.reduction-shangri-br {
-    border: 2px solid #73c22a;
+.reduction {
+    border: 1px solid #73c22a;
     background-color: #73c22a;
     color: white;
 }
 
+/* Pour centrer la div du bouton entier ajouter à mon panier par rapport au bloc*/
+.centrage-panier-bloc {
+    display: flex;
+    justify-content: center;
+}
+
+/* Pour centrer le contenu du bouton par rapport au conteneur ci dessus*/
+.centrage-panier {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .ajouter-au-panier {
     width: 100%;
-    border: 3px solid green;
     display: flex;
     background-color: #195ff4;
+    padding: 0.5rem;
+    justify-content: baseline;
+    align-items: center;
+    margin: 10px;
+
 }
 
 .icon-panier {
 
     width: 15%;
-    text-align: center;
+    text-align: left;
     color: white;
 }
 
 .text-panier {
 
-    width: 65%;
-    text-align: center;
+    width: 80%;
+    text-align: left;
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
