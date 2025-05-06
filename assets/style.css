@@ -2,11 +2,8 @@ body {
     margin: 0;
     width: 100%;
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 .barre-contact {
@@ -87,7 +84,7 @@ body {
     border: 2px solid green;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 }
 
 .menus {
@@ -102,6 +99,7 @@ body {
     align-items: center;
     background-color: #22a6e6;
     padding: 0.5rem;
+    margin: 0.1rem 0 0.1rem 0;
 }
 
 
@@ -109,9 +107,16 @@ body {
 /* A REPRENDRE ICI */
 
 main {
+    border: 5px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #e3f5ff;
-    width: 90%;
+}
 
+.contenu-main {
+    background-color: white;
+    border: 5px solid yellow;
 }
 
 .caroussel {
@@ -125,10 +130,134 @@ main {
 
 
 
+/* A FINIR ICI */
+.titre-nouveautes {
+    width: 95%;
+}
+
 .nos-nouveautes {
     text-align: center;
     color: #fe0000;
+    font-size: 1em;
 }
+
+
+.bloc-ventes {
+    display: flex;
+    border: 5px solid green;
+}
+
+
+
+
+
+.fleche-bleue-g {
+    border: 1px solid white;
+    border-radius: 1rem;
+    background-color: #e1fbff;
+    width: 2%;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #00c3ff;
+    height: 5%;
+}
+
+
+
+/* A CONTINUER ICI */
+
+.shangri-bluray {
+    border: 3px solid red;
+    width: 13vw;
+    height: 40vh;
+
+}
+
+.centrage-img {
+    border: 5px solid black;
+    display: flex;
+    width: 100%;
+    height: 20vh;
+
+}
+
+.img-ventes {
+    height: 100%;
+    justify-content: center;
+}
+
+
+
+
+.align-prix {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 5px;
+}
+
+.ancien-prix-shangri-br {
+    color: #1a55fe;
+    text-decoration: line-through;
+}
+
+.prix-shangri-br {
+    color: #e80d0d;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.reduction-shangri-br {
+    border: 2px solid #73c22a;
+    background-color: #73c22a;
+    color: white;
+}
+
+.ajouter-au-panier {
+    width: 100%;
+    border: 3px solid green;
+    display: flex;
+    background-color: #195ff4;
+}
+
+.icon-panier {
+
+    width: 15%;
+    text-align: center;
+    color: white;
+}
+
+.text-panier {
+
+    width: 65%;
+    text-align: center;
+    color: white;
+}
+
+
+
+.fleche-bleue-d {
+    border: 1px solid white;
+    border-radius: 1rem;
+    background-color: #e1fbff;
+    width: 2%;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00c3ff;
+    height: 5%;
+}
+
+
+
+
+
+
+
+
+
 
 .nouveautes {
     display: flex;
