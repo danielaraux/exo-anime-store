@@ -21,7 +21,6 @@ body {
     color: #29a00a;
 }
 
-
 .categories-contact {
     display: flex;
     width: 60%;
@@ -34,8 +33,6 @@ body {
     color: #adb8c1;
     font-size: 0.7em;
 }
-
-
 
 .logo-anime-store>img {
     width: 230px;
@@ -75,14 +72,12 @@ body {
     padding: 0.4em;
 }
 
-
 .barre-navigation-couleur {
     background-color: #192c3b;
     display: flex;
     justify-content: center;
     height: 3rem;
 }
-
 
 .barre-navigation {
     width: 60%;
@@ -98,12 +93,9 @@ body {
     background-color: #e80d0d;
 }
 
-
-
 .menus {
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
-
 
 .banniere-bleue {
     display: flex;
@@ -115,8 +107,6 @@ body {
     color: white;
     font-size: 0.8rem;
 }
-
-
 
 main {
     display: flex;
@@ -143,7 +133,6 @@ main {
     font-size: 1em;
 }
 
-
 .bloc-ventes {
     display: flex;
     justify-content: center;
@@ -168,14 +157,11 @@ main {
     height: 5%;
 }
 
-
-
 .ventes {
     border: 1px solid #ebebeb;
     width: 13vw;
 
 }
-
 
 .centrage-img {
     display: flex;
@@ -194,12 +180,10 @@ main {
     height: 65px;
 }
 
-
 .img-ventes {
     height: 100%;
     justify-content: center;
 }
-
 
 .align-prix {
     display: flex;
@@ -247,7 +231,6 @@ main {
     justify-content: baseline;
     align-items: center;
     margin: 10px;
-
 }
 
 .icon-panier {
@@ -264,19 +247,6 @@ main {
     color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .fleche-bleue-d {
     border: 1px solid white;
     border-radius: 1rem;
@@ -289,10 +259,6 @@ main {
     color: #00c3ff;
     height: 5%;
 }
-
-
-
-
 
 .nouveautes {
     display: flex;
@@ -307,17 +273,15 @@ main {
     text-align: center;
     background-color: rgb(196, 240, 255);
     padding: 0.5rem;
-    margin: 5px;
+    margin: 4px;
 }
-
 
 .grid-images {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin: 10px 0 10px 0;
-
+    margin-top: 20px;
 }
 
 .img1 {
@@ -344,9 +308,6 @@ main {
     grid-column: 4 / 5;
     grid-row: 2 / 5;
 }
-
-
-
 
 .nos-univers-anime {
     background-color: #fab202;
